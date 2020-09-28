@@ -19,9 +19,8 @@
   },
   "homepage": "https://github.com/JakeSchwa/ant-api#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.11.0",
-    "graphql": "^15.3.0"
+    "apollo-server-express": "^2.18.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
