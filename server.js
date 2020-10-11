@@ -28,6 +28,6 @@ sequelize.sync({ force: eraseDatabaseOnSync }).then(async () => {
   }
 
   app.listen({ port: 4000 }, () =>
-    console.log(`\n🚀 Server ready at http://localhost:4000${server.graphqlPath}`)
+    console.log(`\n🚀 Server ready at http://localhost:4000${server.graphqlPath}\n`)
   );
 });
